@@ -1,0 +1,46 @@
+*{
+
+	padding: 0;
+	margin: 0;
+
+}
+
+
+body{
+
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0);
+
+}
+
+.btn {
+
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	overflow: hidden; 
+	width: 85px;
+	height: 85px;
+	border: 13px solid #e2333d;
+	box-shadow: 1px 1px 5px 1px rgba(255, 24, 37, 0.4);
+	background: #f06069;
+	border-radius: 100%;
+	cursor: pointer;
+	-webkit-app-region: drag;
+
+}
+
+.plane {
+
+	position: relative;
+	background: url('../other/paper-plane.svg');
+	width: 60%;
+	height: 60%;
+	left: -214px;
+    top: -218px;
+    cursor: pointer;
+	-webkit-app-region: no-drag;
+
+}
+

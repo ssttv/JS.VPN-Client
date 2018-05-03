@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title></title>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+	
+<div class='body'>
+	
+	<div class='avatar'></div>
+	<div class='info'>
+		
+		<div class='name'><b>JSus</b> Dev</div>
+
+		<div class='background'><i>"JavaScript программист, разработчик электронных устройств"</i></div>
+
+		<a onclick='open_link("https://github.com/JsusDev/JS.VPN-Client")' href='#' class='gh'>GitHub</a>		
+
+		<a onclick='open_link("http://jsusdev")' href='#' target='_blank'>Telegram me</a>
+		<a onclick='open_link("http://jsusdevs")' href='#' target='_blank'>Telegram channel</a>
+		
+		<div class='btn' target='_blank'>Закрыть</div>
+
+	</div>
+
+</div>
+
+<script>
+
+const btn              = document.getElementsByClassName('btn')
+	, { ipcRenderer, shell }  = require('electron')
+
+
+const open_link = (url) => {
+
+	shell.openExternal(url)
+
+}
+
+btn[0].addEventListener('click', () => {
+
+	ipcRenderer.send('close-about', true)
+
+})
+
+
+</script>
+
+</body>
+</html>
