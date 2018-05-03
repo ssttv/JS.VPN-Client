@@ -1,0 +1,104 @@
+	
+@font-face {
+
+	font-family: PT_Sans;
+	src: url(../other/PT_Sans-Web-Regular.ttf);
+
+}
+
+*{
+
+	font-family: PT_Sans;
+	padding: 0;
+	margin: 0; 
+	background: rgba(0,0,0,0);
+	color: #eee;
+	
+}
+
+.body {
+
+	width: 350px;
+	border-radius: 3px;
+	background: rgba(36, 39, 39, 0.9);
+	padding: 20px 0px 20px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 480px;
+
+}
+
+.settings {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+
+.wrapper {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 300px
+
+}
+
+select {
+
+	outline: none;
+	margin: 10px;
+	border: none;
+	background: rgba(51, 55, 55, 0.9);
+	border-radius: 6px;
+	padding: 4px 10px 4px 10px;
+	cursor: pointer;
+
+}
+
+select:hover {
+
+	background: rgba(53, 57, 57, 0.9);
+
+}
+
+option {
+
+	background: rgba(56, 60, 60, 0.9);
+
+}
+
+
+.btn-nav {
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+
+}
+
+
+
+.btn {
+
+	cursor: pointer;
+	margin-top: 10px;
+	padding: 4px 10px 4px 10px;
+	border-radius: 6px;
+	user-select: none;
+	margin: 0px 10px 0px 10px;
+
+}
+
+
+.btn:hover {
+
+	color: #ccc
+
+}

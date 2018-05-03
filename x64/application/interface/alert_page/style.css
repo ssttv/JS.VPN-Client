@@ -1,0 +1,94 @@
+@font-face {
+
+	font-family: PT_Sans;
+	src: url(../other/PT_Sans-Web-Regular.ttf);
+
+}
+
+*{
+
+	font-family: PT_Sans;
+	padding: 0;
+	margin: 0; 
+	background: rgba(0,0,0,0);
+
+}
+
+
+.body{
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	height: 175px;
+
+}
+
+.message-box {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.message {
+
+	border-radius: 6px;
+	font-size: 16px;
+	user-select: none;
+	cursor: pointer;
+	background: rgba(36, 39, 39, 0.9);
+	padding: 10px 10px 10px 10px;
+	color: #eee;
+	width: auto;
+	max-width: 180px;
+	position: relative;
+	z-index: 1;
+
+}		
+
+input {
+
+	cursor: pointer;
+	border: none;
+	border-radius: 6px;
+	padding: 4px 10px 4px 10px;
+	margin: 2px;
+	color: #eee;
+	outline: none; 
+	background: rgba(51, 55, 55, 0.9);
+
+}
+
+input:hover {
+
+	color: #ccc
+
+}
+
+.vector {
+
+	width: 30px;
+	height: 30px;
+	background: rgba(36, 39, 39, 0.9);
+	transform: rotateZ(45deg);
+	border-radius: 6px;
+
+}
+
+.vector-box {
+
+	padding: 4px;
+	margin-top: 0px;
+	height: 8px;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	transform: rotateZ(180deg);
+
+}
+
+

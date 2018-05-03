@@ -1,0 +1,52 @@
+@font-face {
+
+	font-family: PT_Sans;
+	src: url(../other/PT_Sans-Web-Regular.ttf);
+
+}
+
+*{
+
+	font-family: PT_Sans;
+	padding: 0;
+	margin: 0; 
+	background: rgba(0,0,0,0);
+
+}
+
+.body {
+
+	border-radius: 3px;
+	background: rgba(36, 39, 39, 0.9);
+	padding: 10px 0px 10px 0px;
+	height: 215px;
+	font-size: 0px;
+
+}
+
+.btn {
+
+	font-size: 16px;
+	user-select: none;
+	cursor: pointer;
+	color: #eee;
+	width: 180px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid rgba(36, 39, 39, 0.05);
+
+}		
+
+.btn:hover {
+
+	background: rgba(51, 54, 54, 0.6);
+
+}
+
+.end {
+
+	border: none;
+
+}

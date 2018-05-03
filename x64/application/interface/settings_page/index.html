@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title></title>
+</head>
+<body>
+<link rel='stylesheet' type='text/css' href='style.css'>
+
+<div class='body'> 
+	
+	<div class='settings'>
+
+		<div class='wrapper'>
+			<div>Колличество сессий (от)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+		<div class='wrapper'>
+			<div>Ping (до)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+			
+		<div class='wrapper'>
+			<div>Всего подключений (от)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+		<div class='wrapper'>
+			<div>Страна</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+		<div class='wrapper'>
+			<div>Время работы (от)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+		<div class='wrapper'>
+			<div>Скорость (от)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+		<div class='wrapper'>
+			<div>Общий трафик (от)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+		<div class='wrapper'>	
+			<div>Качество соединения (от)</div>
+			<select class='select'>	
+				<option value='-'>---</option>
+			</select>
+		</div>
+
+	</div>
+
+	<style>
+		
+
+		.button {
+			margin-top: 10px;
+		}
+
+		.new_check {
+
+			width: 20px;
+			height: 20px;
+			border-radius: 100%;
+			margin-right: 30px;
+			background: rgba(51, 55, 55, 0.9);
+
+		}
+
+		#auto-reconnect:checked + .new_check {
+
+			background: radial-gradient(rgba(244, 244, 244, 0.9) 30%, rgba(51, 55, 55, 0.9) 29%);
+
+		}
+
+	</style>
+
+	<div class='wrapper button'>	
+		
+		<div>Авто-переподключение к VPN</div> 
+
+ 
+		<label for='auto-reconnect'>
+ 			<input type="checkbox" hidden id='auto-reconnect'>		
+			<div class='new_check'></div>
+		</label>
+ 
+
+
+	</div>
+
+
+	<div class='btn-nav'>
+		
+		<div class='btn'>Сохранить</div>
+		<div class='btn'>Закрыть</div>
+
+	</div>
+
+</div>
+
+<script src='script.js'></script>
+
+</body>
+</html>
