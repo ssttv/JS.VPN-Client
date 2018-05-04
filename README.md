@@ -1,7 +1,9 @@
 # JS.VPN-Client
 My VPN client. get started electron (Electron + OpenVPN) ¯\\_(ツ)_/¯
 
-Download application: x64 / ai32 
+Download application: [x64](https://www.youtube.com/watch?v=IBPmMf1RxMI)/[ai32](https://www.youtube.com/watch?v=IBPmMf1RxMI) 
+
+YouTube demonstration: [JS.VPN-Client](https://www.youtube.com/watch?v=IBPmMf1RxMI)
 
 ### Menu
 ![image alt >](https://jsusdev.github.io/JS.VPN-Client/other/img_1.jpg)
